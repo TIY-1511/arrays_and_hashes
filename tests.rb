@@ -105,6 +105,10 @@ class TestArrays < MiniTest::Unit::TestCase
   # Use the the array.reject method to complete this test
   # This is basically the oposite of select
   # Docs: http://ruby-doc.org/core-2.2.0/Array.html#method-i-reject
+  
+  
+  # reject will exclude items where the block returns true
+  # select includes items where the block returns true
   def test_create_a_new_array_with_odd_numbers_using_reject
     skip "Waiting to be implemented"
     array = [1,6,3,9,1,1,2,3]
